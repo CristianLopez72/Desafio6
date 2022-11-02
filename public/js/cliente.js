@@ -92,8 +92,8 @@ function agregarNuevoMensaje(nuevoMensaje) {
   const mensajeFinal = document.createElement("p");
 
   pEmail.classList.add("Azul");
-  pHora.classList.add("Rojo");
-  pMensaje.classList.add("Azul");
+  pHora.classList.add("Marron");
+  pMensaje.classList.add("Verde");
 
   pEmail.innerText = nuevoMensaje.email;
   pHora.innerText = `[${nuevoMensaje.hora}]:`;

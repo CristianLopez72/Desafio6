@@ -26,10 +26,14 @@
     font-weight: bold;
   }
   
-  .Rojo {
-    color: red;
+  .marron {
+    color: #d8690e91;
   }
   
+  .verde {
+    color: #0cec2ace;
+    font-style: italic;
+  }
   .mensajeFinal {
     display: flex;
   }
